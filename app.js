@@ -16,7 +16,6 @@ function createImages(arr){
     
     for(let i=0; i<arr.length; i++){
         if(arr[i].show.image){
-            // console.log(arr[i].show.image.medium);
             let img= document.createElement("img");
             img.src= arr[i].show.image.medium;
             document.body.append(img);
